@@ -1,0 +1,27 @@
+/*Pasado a bootstrap por recomendacion de Agus*/
+body{
+    background-color: rgb(0, 0, 51);
+}
+h1{
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    text-shadow: 2px 0 rgb(17, 0, 255), -1px 0 rgb(0, 0, 0);
+}
+
+button:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.918);
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.item {
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.item.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
